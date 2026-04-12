@@ -1,0 +1,19 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cxcshdxh53ng0"]
+
+[ext_resource type="Shader" uid="uid://b240ws6ki2jut" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/shader/shared_wood_burned.gdshader" id="1_ggp0j"]
+[ext_resource type="Texture2D" uid="uid://bc2b2oxegm4ws" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/2d/burn_wood.jpg" id="2_fmv87"]
+[ext_resource type="Texture2D" uid="uid://demx34u6hqqai" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/2d/brass_wood.png" id="3_8f8b7"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ggp0j")
+shader_parameter/top_bottom_albedo_texture = ExtResource("3_8f8b7")
+shader_parameter/side_albedo_texture = ExtResource("2_fmv87")
+shader_parameter/top_bottom_uv_tiling = 8.00010037999747
+shader_parameter/top_bottom_uv_offset = Vector2(0, 0)
+shader_parameter/top_bottom_uv_rotation_radians = 1.49981536450451
+shader_parameter/side_uv_tiling_u = 12.23610058120747
+shader_parameter/side_uv_tiling_v = 130.21410618516248
+shader_parameter/side_uv_offset = Vector2(1.55, 2.39)
+shader_parameter/side_uv_rotation_radians = 0.0
+shader_parameter/top_bottom_face_normal_y_abs_threshold = 0.5750000273125

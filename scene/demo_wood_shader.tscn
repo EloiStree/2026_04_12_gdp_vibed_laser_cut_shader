@@ -1,0 +1,69 @@
+[gd_scene format=3 uid="uid://c1tt4304wfvhw"]
+
+[ext_resource type="Material" uid="uid://cmkt1i2jfg75j" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/material/mat_wood_burned.tres" id="1_5ohg8"]
+[ext_resource type="Material" uid="uid://cxcshdxh53ng0" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/material/mat_wood_burned_a4.tres" id="2_6emj1"]
+[ext_resource type="PackedScene" uid="uid://carhe6qitp44v" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/3d/a4_shape_test_holes.glb" id="3_8xkbl"]
+[ext_resource type="PackedScene" uid="uid://clqnt2oald5qu" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/3d/a4_shape_test_border_cut.fbx" id="4_dy85l"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_fhjpa"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_fhjpa"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_fhjpa"]
+
+[node name="Node3D" type="Node3D" unique_id=334115651]
+
+[node name="MeshInstance3DCylinder" type="MeshInstance3D" parent="." unique_id=1390698975]
+transform = Transform3D(2.2899132, -0.14082834, 0, 2.2545376, 0.14303806, 0, 0, 0, 3.4181151, -5.718045, 2.917125, -16.940166)
+mesh = SubResource("CylinderMesh_fhjpa")
+surface_material_override/0 = ExtResource("1_5ohg8")
+
+[node name="MeshInstance3DCylinder2" type="MeshInstance3D" parent="." unique_id=2087971174]
+transform = Transform3D(5.3193574, -1.0560681, 0, 5.2371817, 1.0726388, 0, 0, 0, 34.7718, 5.9863844, 10.355869, -16.940166)
+mesh = SubResource("CylinderMesh_fhjpa")
+surface_material_override/0 = ExtResource("1_5ohg8")
+
+[node name="MeshInstance3DCylinder3" type="MeshInstance3D" parent="." unique_id=1946329612]
+transform = Transform3D(5.3193574, -0.33495188, 0, 5.2371817, 0.3402076, 0, 0, 0, 29.182487, 0.29913187, 4.756476, -16.940166)
+material_override = ExtResource("2_6emj1")
+mesh = SubResource("CylinderMesh_fhjpa")
+surface_material_override/0 = ExtResource("1_5ohg8")
+
+[node name="MeshInstance3D9" type="MeshInstance3D" parent="." unique_id=422995859]
+transform = Transform3D(2.2899132, -0.59750694, 0, 2.2545376, 0.60688233, 0, 0, 0, 3.4181151, -8.460064, 0.21746637, -15.233437)
+mesh = SubResource("CapsuleMesh_fhjpa")
+surface_material_override/0 = ExtResource("1_5ohg8")
+
+[node name="MeshInstance3D10" type="MeshInstance3D" parent="." unique_id=739665720]
+transform = Transform3D(2.1964438, -0.6470322, 0, 2.3456933, 0.60586345, 0, 0, 0, 3.418115, -11.864718, -3.1345913, -16.14962)
+mesh = SubResource("BoxMesh_fhjpa")
+surface_material_override/0 = ExtResource("1_5ohg8")
+
+[node name="a4_shape_testing2" parent="." unique_id=1918588256 instance=ExtResource("3_8xkbl")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0)
+
+[node name="a4_shape_testing" parent="a4_shape_testing2" index="0" unique_id=493674990]
+transform = Transform3D(4.3268023, 68.37041, -10.690886, 11.310729, -53.677284, -3.2863202, -6.84356, -45.488625, -12.19073, 0, 0, 0)
+material_override = ExtResource("2_6emj1")
+surface_material_override/0 = ExtResource("2_6emj1")
+
+[node name="a4_shape_testing2" parent="a4_shape_testing2" unique_id=1779403584 instance=ExtResource("3_8xkbl")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0)
+
+[node name="a4_shape_testing" parent="a4_shape_testing2/a4_shape_testing2" index="0" unique_id=493674990]
+transform = Transform3D(4.3268023, 68.37041, -10.690886, 11.310729, -53.677284, -3.2863202, -6.84356, -45.488625, -12.19073, 0, 0, 0)
+material_override = ExtResource("2_6emj1")
+surface_material_override/0 = ExtResource("2_6emj1")
+
+[node name="A4 Test" parent="." unique_id=1251731748 instance=ExtResource("4_dy85l")]
+
+[node name="A4 Test v1" parent="A4 Test" index="0" unique_id=63680947]
+transform = Transform3D(1, 0, 0, 0, 1, 7.549791e-08, 0, -7.549791e-08, 1, 0, 0, 0)
+
+[node name="a4" parent="A4 Test/A4 Test v1" index="0" unique_id=597976093]
+transform = Transform3D(1, 0, 0, 0, 0.54280806, -0.8398568, 0, 0.8398568, 0.54280806, 0, 0, 0)
+surface_material_override/0 = ExtResource("2_6emj1")
+
+[editable path="a4_shape_testing2"]
+[editable path="a4_shape_testing2/a4_shape_testing2"]
+[editable path="A4 Test"]

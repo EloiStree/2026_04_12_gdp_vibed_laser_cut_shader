@@ -11,7 +11,7 @@
 
 [sub_resource type="BoxMesh" id="BoxMesh_fhjpa"]
 
-[node name="Node3D" type="Node3D" unique_id=334115651]
+[node name="DemoWoodShader" type="Node3D" unique_id=334115651]
 
 [node name="MeshInstance3DCylinder" type="MeshInstance3D" parent="." unique_id=1390698975]
 transform = Transform3D(2.2899132, -0.14082834, 0, 2.2545376, 0.14303806, 0, 0, 0, 3.4181151, -5.718045, 2.917125, -16.940166)
@@ -61,7 +61,7 @@ surface_material_override/0 = ExtResource("2_6emj1")
 transform = Transform3D(1, 0, 0, 0, 1, 7.549791e-08, 0, -7.549791e-08, 1, 0, 0, 0)
 
 [node name="a4" parent="A4 Test/A4 Test v1" index="0" unique_id=597976093]
-transform = Transform3D(1, 0, 0, 0, 0.54280806, -0.8398568, 0, 0.8398568, 0.54280806, 0, 0, 0)
+transform = Transform3D(4.645, 0, 0, 0, 2.5213435, -3.9011347, 0, 3.9011347, 2.5213435, 0, 0, 0)
 surface_material_override/0 = ExtResource("2_6emj1")
 
 [editable path="a4_shape_testing2"]

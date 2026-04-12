@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://cxcshdxh53ng0"]
 
-[ext_resource type="Shader" uid="uid://b240ws6ki2jut" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/shader/shared_wood_burned.gdshader" id="1_ggp0j"]
+[ext_resource type="Shader" uid="uid://b240ws6ki2jut" path="res://addons/2026_04_11_gdp_learn_with_sensors/feature/shader/default_burned_wood/shared_wood_burned.gdshader" id="1_ggp0j"]
 [ext_resource type="Texture2D" uid="uid://bc2b2oxegm4ws" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/2d/burn_wood.jpg" id="2_fmv87"]
 [ext_resource type="Texture2D" uid="uid://demx34u6hqqai" path="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/2d/brass_wood.png" id="3_8f8b7"]
 

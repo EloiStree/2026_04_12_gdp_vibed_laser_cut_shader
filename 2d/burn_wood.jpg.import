@@ -3,16 +3,16 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc2b2oxegm4ws"
-path.s3tc="res://.godot/imported/burn_wood.jpg-50c32a584e159dff411cd2bdb3b93a9a.s3tc.ctex"
+path.etc2="res://.godot/imported/burn_wood.jpg-50c32a584e159dff411cd2bdb3b93a9a.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/2d/burn_wood.jpg"
-dest_files=["res://.godot/imported/burn_wood.jpg-50c32a584e159dff411cd2bdb3b93a9a.s3tc.ctex"]
+dest_files=["res://.godot/imported/burn_wood.jpg-50c32a584e159dff411cd2bdb3b93a9a.etc2.ctex"]
 
 [params]
 

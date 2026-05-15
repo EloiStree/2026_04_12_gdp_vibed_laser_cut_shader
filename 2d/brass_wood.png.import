@@ -3,16 +3,17 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://demx34u6hqqai"
+path.s3tc="res://.godot/imported/brass_wood.png-aae3fd7da8e489d3e8964a63672b6706.s3tc.ctex"
 path.etc2="res://.godot/imported/brass_wood.png-aae3fd7da8e489d3e8964a63672b6706.etc2.ctex"
 metadata={
-"imported_formats": ["etc2_astc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://addons/2026_04_12_gdp_vibed_laser_cut_shader/2d/brass_wood.png"
-dest_files=["res://.godot/imported/brass_wood.png-aae3fd7da8e489d3e8964a63672b6706.etc2.ctex"]
+dest_files=["res://.godot/imported/brass_wood.png-aae3fd7da8e489d3e8964a63672b6706.s3tc.ctex", "res://.godot/imported/brass_wood.png-aae3fd7da8e489d3e8964a63672b6706.etc2.ctex"]
 
 [params]
 
